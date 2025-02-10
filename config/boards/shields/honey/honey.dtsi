@@ -15,23 +15,16 @@
                     <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
     };
-};
 
-&physical_layout {
-    transform = <&matrix_transform>;
-};
+    &physical_layout {
+        transform = <&matrix_transform>;
+    };
 
-/{
     chosen {
         zmk,physical-layout = &physical_layout;
         zmk, kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
     };
-};
-
-// For use later 
-
-
 
     default_transform: matrix_transform {
         compatible = "zmk,matrix-tranform";
