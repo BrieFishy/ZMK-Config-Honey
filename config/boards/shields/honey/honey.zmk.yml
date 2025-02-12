@@ -1,0 +1,11 @@
+file_format: "1"
+id: honey
+name: Honey
+type: shield
+url: https://github.com/BrieFishy/ZMK-Config-Honey
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - honey_left
+  - honey_right
