@@ -38,5 +38,5 @@
 };
 
 &physical_layout {
-    transform = <&matrix_transform>;
+    transform = <&default_transform>;
 };
