@@ -16,7 +16,7 @@
 
     };
 
-    &physical_layout {
+    physical_layout {
         transform = <&matrix_transform>;
     };
 
