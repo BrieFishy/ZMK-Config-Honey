@@ -21,7 +21,7 @@
 //                          | STR | SHFT|   | SHFT| HRT |
             bindings = <
    &kp CAPS  &kp W     &kp L     &kp R     &kp B     &kp Z          &kp SEMI  &kp Q     &kp U     &kp D     &kp J     &kp TAB
-   &kp LALT  &kp S     &kp H     &kp N     &kp T     &sftcs         &sftcs    &kp A     &kp E     &kp O     &kp I     &kp DEL
+   &kp LALT  &kp S     &kp H     &kp N     &kp T     &sftop         &sftcs    &kp A     &kp E     &kp O     &kp I     &kp DEL
              &kp F     &kp M     &kp V     &kp C     &kp SLASH      &kp G     &kp P     &kp X     &kp K     &kp Y    
                                  &kp LCTRL &kp LWIN  &kp ENTER      &kp SPACE &kp BSPC  &kp RCTRL
                                            &mo 1     &kp LSHFT      &kp RSHFT &mo 2
