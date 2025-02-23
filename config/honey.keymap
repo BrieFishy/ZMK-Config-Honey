@@ -6,6 +6,12 @@
     keymap {
         compatible = "zmk,keymap";
 
+// List of layers:
+// 0  --  Default
+// 1  --  Star
+// 2  --  Heart
+
+
         default_layer {
 // -----------------------------------------------------------------------------------------
 // | CAPS |  W  |  L  |  R  |  B  |  Z  |   |  ;  |  Q  |  U  |  D  |  J  | TAB  |
